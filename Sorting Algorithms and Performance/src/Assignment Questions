@@ -1,0 +1,26 @@
+5. Rank the six sorting algorithms in order of how you expect their runtimes to compare
+
+
+1. Quick sort
+Quicksort will have the quickest runtime because it has an asymptotic complexity of O(nlogn), it has this complexity
+because it partitions the data set down to make the sorting process simpler.
+
+2. Merge sort
+Merge sort has the worst case scenario of O(nlogn) because it partitions the input down and does at most N comparisons.
+
+2. Shell sort
+Shell sort has a worst case runtime of O(N^2) because how fast it sorts can depend on both the number of swaps
+as well as the way the gaps are picked.
+
+4. Selection sort
+Selection sort has a slow worst case runtime of O(N^2) because it uses nested loops. It may require a large number of comparisons.
+
+5. Insertion sort
+Insertion sort has a slow runtime because it divides the array into two sub arrays and compares each element with its adjacent element.
+It could have to compare every element to every other element.
+
+ 6. Bubble sort
+ Bubble sort also could have the slowest runtime due to its asymptotic complexity of O(N^2).
+
+
+ Shell, selection, insertion, and bubble sort could all tie in asymptotic complexity based on the data set
